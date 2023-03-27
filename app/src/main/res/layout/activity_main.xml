@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/eerie_black"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:background="@drawable/btn_text_background"
+        android:minWidth="20dp"
+        android:text="Login"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Calcualtor Current Age"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="200dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Enter age year"
+        android:id="@+id/yearEditText"
+        android:minWidth="200dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text_background"
+        android:padding="12dp"
+        android:inputType="number"
+        android:singleLine="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/calculator_btn"
+        android:text="Calculate"
+        android:background="@drawable/btn_text_background"
+        android:textColor="@color/white"
+        android:minWidth="200dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ageTextView"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:minWidth="200dp"
+        android:text="TextView"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        />
+
+
+
+</LinearLayout>
